@@ -11,7 +11,8 @@ void main() {
     do
     {
         System.out.println("Enter a temperature in C: ");
-        if(in.hasNextDouble()) {
+        if(in.hasNextDouble())
+        {
             choice = in.nextDouble();
             in.nextLine();
             done = true;
