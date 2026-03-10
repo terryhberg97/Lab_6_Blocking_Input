@@ -21,9 +21,11 @@ void main() {
         else
         {
             trash = in.nextLine();
-            System.out.println("Incorrect value entered is: " + numberOfGallons);
+            System.out.println("Incorrect value entered is: " + trash);
         }
     } while (!done);
+
+    done = false;
 
     do
     {
@@ -37,9 +39,11 @@ void main() {
         else
         {
             trash = in.nextLine();
-            System.out.println("Incorrect value entered is: " + fuelEfficiency);
+            System.out.println("Incorrect value entered is: " + trash);
         }
     } while (!done);
+
+    done = false;
 
     do
     {
@@ -53,7 +57,7 @@ void main() {
         else
         {
             trash = in.nextLine();
-            System.out.println("Incorrect value entered is: " + priceGallon);
+            System.out.println("Incorrect value entered is: " + trash);
         }
     } while (!done);
     costToDrive = (100 / fuelEfficiency) * priceGallon;
