@@ -8,7 +8,6 @@ void main() {
     double fahrenheit = 0;
     String trash = "";
 
-    
     do
     {
         System.out.println("Enter a temperature in C: ");
